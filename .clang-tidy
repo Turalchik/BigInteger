@@ -1,0 +1,17 @@
+---
+Checks: -*,
+  clang-diagnostic-*,
+  clang-analyzer-*,
+  performance-*,
+  bugprone-*,
+  portability-*,
+  readability-*,
+  -bugprone-exception-escape,
+  -readability-magic-numbers,
+  -readability-function-cognitive-complexity,
+  -readability-identifier-length
+
+WarningsAsErrors: ''
+HeaderFilterRegex: ''
+AnalyzeTemporaryDtors: false
+FormatStyle:     ''
